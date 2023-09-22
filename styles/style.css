@@ -338,7 +338,7 @@
   .gallery__card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 24.6% 29.5% 41%; /* (192/780*100) (230/780*100) (318/780*100)*/
+    grid-template-rows: 24.6% 29.5% 41%; /*(192/780*100) (230/780*100) (318/780*100)*/
     gap: 20px;
     min-height: 780px;
     margin-block-start: 20px;
