@@ -9,12 +9,12 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --font-family: "IBM Plex mono";
   --accent-color: #ff0070; /*розовый цвет фона*/
   --corners-color: #ff0070;
   --background-color: #000028; /*черный цвет фона*/
   --title-text-color: #000028; /*черный цвет текста в заголовке*/
   --text-shadow: 4px 4px 0px #ff0070; /*неоновая тень у заголовка*/
-  --font-family: "IBM Plex mono";
   --color-title: #db00ff;
   --button-color: #ff0070;
   --main__title-color: #ff0070;
@@ -27,17 +27,16 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --accent-color: #ff0070;
-  --corners-color: #ff0070;
-  --background-color: #000028;
-  --title-text-color: #000028; 
-  --text-shadow: 4px 4px 0px #ff0070;
-  --font-family: "IBM Plex mono";
-  --color-title: #db00ff;
-  --button-color: #ff0070;
-  --main__title-color: #ff0070;
-  --link-color: #ff0070;
-  --card__content-text-color: #f1b2ce;
-  background-color: var(--background-color);
+    --corners-color: #ff0070;
+    --background-color: #000028;
+    --title-text-color: #000028;
+    --text-shadow: 4px 4px 0px #ff0070;
+    --font-family: "IBM Plex mono";
+    --color-title: #db00ff;
+    --button-color: #ff0070;
+    --main__title-color: #ff0070;
+    --link-color: #ff0070;
+    --card__content-text-color: #f1b2ce;
   }
 
   .page {
