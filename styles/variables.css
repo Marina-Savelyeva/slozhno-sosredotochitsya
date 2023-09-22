@@ -2,3 +2,20 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --accent-color: #ff0070; /*розовый цвет фона*/
+  --corners-color: #ff0070;
+  --background-color: #000028; /*черный цвет фона*/
+  --title-text-color: #000028; /*черный цвет текста в заголовке*/
+  --text-shadow: 4px 4px 0px #ff0070; /*неоновая тень у заголовка*/
+  --font-family: "IBM Plex mono";
+  --color-title: #db00ff;
+  --padding: 10px;
+  --button-color: #ff0070;
+  --main__title-color: #ff0070;
+  --link-color: #ff0070;
+  --margin-block: 40px;
+  --margin__section: 50px;
+  --card__content-text-color: #f1b2ce;
+  --gallary__gap: 10px;
+}
