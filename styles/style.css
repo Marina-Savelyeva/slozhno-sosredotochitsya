@@ -1,5 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-color: var(--background-color);
@@ -8,8 +7,6 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  max-inline-size: 1024px;
-  min-inline-size: 375px;
 }
 
 /* хедер начало*/
@@ -274,7 +271,7 @@
 /*галерея*/
 
 .gallery {
-  inline-size: min(355px, 100vh);
+  min-inline-size: 100%;
 }
 
 .gallery__card {
@@ -331,9 +328,7 @@
     gap: 20px;
   }
 
-  .gallery {
-    inline-size: 100%;
-  }
+  
 
   .gallery__card {
     display: grid;

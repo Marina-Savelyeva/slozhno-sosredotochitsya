@@ -19,10 +19,10 @@
   --card__content-text-color: #353430;
   --link-color: #ff8dcb;
   background-image: url(../images/cover-image-light.png);
-}
 
-.page.theme_light .decorative_rec {
-  display: none;
+  .decorative_rec {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -40,5 +40,9 @@
 
   .page {
     background-image: url(../images/cover-image-light.png);
+  }
+
+  .decorative_rec {
+    display: none;
   }
 }
