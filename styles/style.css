@@ -270,10 +270,6 @@
 
 /*галерея*/
 
-.gallery {
-  min-inline-size: 100%;
-}
-
 .gallery__card {
   display: grid;
   gap: var(--gallary__gap);
