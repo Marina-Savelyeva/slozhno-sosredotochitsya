@@ -22,11 +22,10 @@
   --card__content-text-color: #f1b2ce;
   background-color: var(--background-color);
   background-image: url(../images/cover-image-dark.png);
+}
 
-  .decorative_rec {
-    display: block;
-  }
-
+.theme_dark .decorative-rec {
+  display: block;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -48,7 +47,7 @@
     background-image: url(../images/cover-image-dark.png);
   }
 
-  .decorative_rec {
+  .decorative-rec {
     display: block;
   }
 }
