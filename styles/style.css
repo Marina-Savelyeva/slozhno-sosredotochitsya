@@ -378,7 +378,6 @@
 /*для больших экранов*/
 
 @media (width >= 1024px) {
-
   .header,
   .footer {
     min-block-size: 768px;
