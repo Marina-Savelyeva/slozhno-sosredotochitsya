@@ -21,6 +21,7 @@
   align-items: start;
   padding: var(--padding);
   block-size: 100vh;
+  min-block-size: 668px;
 }
 
 .decorated-zone::before { /* верхний уголок*/
@@ -144,12 +145,12 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border: none;
-  box-shadow: 1px solid var(--button-color);
+  outline: none;
+  box-shadow: 0 1px 0 var(--button-color);
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--button-color);
+  outline: 1px solid var(--button-color);
   pointer-events: none;
 }
 
@@ -216,7 +217,7 @@
 /*состояния ссылки*/
 
 .link:hover {
-  border-bottom: 1px solid var(--link-color);
+  border-bottom: 1px solid var(--link-color-hover);
 }
 
 .link:focus {
@@ -224,7 +225,7 @@
 }
 
 .link:focus-visible {
-  outline: 1px solid var(--link-color);
+  outline: 1px solid var(--link-color-focus-visible);
 }
 
 /*галерея*/
@@ -253,6 +254,7 @@
   align-items: center;
   padding: var(--padding);
   block-size: 100vh;
+  min-block-size: 668px;
 }
 
 .footer__content {
@@ -273,6 +275,11 @@
     --padding: 20px;
     --margin-block: 60px;
     --margin__section: 80px;
+  }
+
+  .header,
+  .footer {
+    min-block-size: 1024px;
   }
 
   .header__title { /* заголовок*/
@@ -371,6 +378,12 @@
 /*для больших экранов*/
 
 @media (width >= 1024px) {
+
+  .header,
+  .footer {
+    min-block-size: 768px;
+  }
+
   .header__theme-menu {
     justify-self: center;
     align-self: start;

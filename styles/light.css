@@ -18,6 +18,8 @@
   --main__title-color: #353430;
   --card__content-text-color: #353430;
   --link-color: #ff8dcb;
+  --link-color-hover: #353430;
+  --link-color-focus-visible: #353430;
   background-image: url(../images/cover-image-light.png);
 }
 
@@ -36,6 +38,8 @@
     --main__title-color: #353430;
     --card__content-text-color: #353430;
     --link-color: #ff8dcb;
+    --link-color-hover: #353430;
+    --link-color-focus-visible: #353430;
   }
 
   .page {

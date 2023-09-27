@@ -20,6 +20,8 @@
   --main__title-color: #ff0070;
   --link-color: #ff0070;
   --card__content-text-color: #f1b2ce;
+  --link-color-hover: #f1b2ce;
+  --link-color-focus-visible: #f1b2ce;
   background-color: var(--background-color);
   background-image: url(../images/cover-image-dark.png);
 }
@@ -41,6 +43,8 @@
     --main__title-color: #ff0070;
     --link-color: #ff0070;
     --card__content-text-color: #f1b2ce;
+    --link-color-hover: #f1b2ce;
+    --link-color-focus-visible: #f1b2ce;
   }
 
   .page {
